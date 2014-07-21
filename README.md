@@ -15,6 +15,8 @@ Have a look at https://github.com/thecodingmachine/html.tags
 
 ## Usage
 
+PHP code:
+
     $attributes = (new HtmlAttributes())
       ->set('id', 'theId')
       ->addClass('theClass')
@@ -24,6 +26,7 @@ Have a look at https://github.com/thecodingmachine/html.tags
     print $attributes->HR(NULL) . "\n";
     print '<pre' . $attributes . '>text in a span</pre>';
 
+Resulting HTML:
 
     <div id="theId" class="theClass" style="color: green;">contents</div>
     <hr />
