@@ -24,6 +24,6 @@ Have a look at https://github.com/thecodingmachine/html.tags
     print $attributes->HR(NULL) . "\n";
     print '<pre' . $attributes . '>text in a span</pre>';
 
-<div id="theId" class="theClass" style="color: green;">contents</div>
-<hr />
-<pre id="theId" class="theClass" style="color: green;">text in a pre</pre>
+> <div id="theId" class="theClass" style="color: green;">contents</div>
+> <hr />
+> <pre id="theId" class="theClass" style="color: green;">text in a pre</pre>
