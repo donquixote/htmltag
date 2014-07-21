@@ -8,6 +8,10 @@ A PHP library to generate HTML tags and attribute strings.
 I still need to fine-tune the API..
 Feedback is welcome.
 
+## Similar libraries
+
+Have a look at https://github.com/thecodingmachine/html.tags
+
 
 ## Usage
 
