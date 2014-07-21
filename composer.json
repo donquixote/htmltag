@@ -1,0 +1,16 @@
+{
+  "name": "donquixote/htmltag",
+  "type": "library",
+  "description": "Library to generate HTML tags and attribute strings.",
+  "homepage": "http://github.com/donquixote/htmltag",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Hennings",
+      "email": "andreas@dqxtech.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Donquixote\\HtmlTag\\": "src/" }
+  }
+}
